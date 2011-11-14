@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 #labels Phase-Requirements,Phase-Deploy
 
+
 == System Requirements ==
 
 Requirements are basics of the PHP web server that can be calendar system set up and running.
@@ -9,7 +10,7 @@ Apache -> http://www.apache.org
 
 MySQL -> http://www.mysql.com
 
-PHP (version 4.1.2 or higher) -> http://www.php.net
+PHP (version 4.3.0 or higher) -> http://www.php.net
   * Needs XML support
 
 == Server Configuration ==
@@ -28,7 +29,9 @@ Windows - c:\apache\htdocs\calendar
 
 Uncompress this distribution download file into the directory you have created above using Untar or Winzip.
 
-After that you access the website as the files are located e.g. http://localhost/calendar/, you will see the Warning/Error showing in the page then you type the URL to http://localhost/calendar/install for setting values.
+After that you access the website as the files are located e.g. http://localhost/calendar/, you will see the Warning/Error showing in the page then you type the URL to http://localhost/calendar/install for setting values as showing in the figure below.
+
+http://artrix-calendar.googlecode.com/svn/wiki/screenshot_install.jpg
 
 In this step you just put the database values and it also will check the system availability on the webpage and submit the form. ArTrix calendar will prompt you to delete your Installation folder. This is for security reasons, so that a malicious user cannot change your installation. Until this is done, it will not work.
 
