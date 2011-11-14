@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+#labels Phase-Requirements,Phase-Deploy
+
+== System Requirements ==
+
+Requirements are basics of the PHP web server that can be calendar system set up and running.
+
+Apache -> http://www.apache.org
+
+MySQL -> http://www.mysql.com
+
+PHP (version 4.1.2 or higher) -> http://www.php.net
+
+== Server Configuration ==
+
+You must ensure that PHP has been compiled with support for MySQL in order to successfully run the system. We recommend Apache for running our system on Windows.
+
+== Optional required ==
+If you want support for SEF URLs, you'll need mod_rewrite and the ability to use local .htaccess files. 
