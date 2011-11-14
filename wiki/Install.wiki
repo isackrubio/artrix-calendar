@@ -10,6 +10,8 @@ Apache -> http://www.apache.org
 MySQL -> http://www.mysql.com
 
 PHP (version 4.1.2 or higher) -> http://www.php.net
+  * XML
+  * 
 
 == Server Configuration ==
 
