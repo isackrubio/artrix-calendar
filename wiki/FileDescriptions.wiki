@@ -1,0 +1,16 @@
+=File Descriptions=
+
+Another way to help the developer understanding how the system works overall, there are the descriptions of programming file in the calendar system as shown the table:
+
+||_Folders / Files_||_Actions||
+||(root)||Main Folder||
+||.htacess||- Manage accessing files||
+||index.php||- Login, sign up page and announcement list||
+||chkserver.php||- Check the system that can still able to communication or on the internet connection via Ajax of DHTMLX||
+||main.php||- Main page of system||
+||main_script.js||- The main page javascript acts on several funtiontions of DHTMLX ||
+||signout.php	||- Sign out page and then redirect page to index.php||
+
+
+
+
