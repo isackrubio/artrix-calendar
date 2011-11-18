@@ -3,13 +3,36 @@
 Another way to help the developer understanding how the system works overall, there are the descriptions of programming file in the calendar system as shown the table:
 
 ||_Folders / Files_||_Actions||
-||(root)||Main Folder||
+||_(root)_||_Main Folder_||
 ||.htacess||- Manage accessing files||
 ||index.php||- Login, sign up page and announcement list||
 ||chkserver.php||- Check the system that can still able to communication or on the internet connection via Ajax of DHTMLX||
 ||main.php||- Main page of system||
 ||main_script.js||- The main page javascript acts on several funtiontions of DHTMLX ||
 ||signout.php	||- Sign out page and then redirect page to index.php||
+
+||_codebase_||dhtmlxScheduler folder||
+||->connector||- A set of file is managing the database connection||
+||->ext||- A set of file is the extension of dhtmlxScheduler||
+||->imgs ||- A set of file is concerning the dhtmlxScheduler layout||
+||dhtmlxscheduler.css||- CSS file of dhtmlxScheduler definition||
+||dhtmlxscheduler.js||- Main javascript of dhtmlxScheduler||
+||dhtmlxscheduler_debug.js||- Main javascript file of dhtmlxScheduler but it can show the error or warning during running the system (released system does not call this file)||
+
+||common||Generic file container||
+||--> css||- CSS files||
+||    .htaccess||- Command set of accessing file||
+||    css_event.php||- Configurable Color set ||
+||    style.css||- Scheduler style page||
+||--> icon||- Icon files||
+||--> image||- Image files||
+
+
+
+
+
+
+
 
 
 
