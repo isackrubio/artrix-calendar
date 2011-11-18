@@ -1,0 +1,13 @@
+=Database Scheme=
+
+=== calendar: individual calendars belongs to each user===
+||_Field_||_Type_||_Null?_||_Default_||_Description_||
+||*calendar_id*||int(6)||No|| ||Calendar ID||
+||*calendar_name*	||varchar(150)	||No	||General Events||Calendar Title||
+||*calendar_description*	||varchar(250)	||Yes	||NULL	||Calendar Description||
+||*sharing*	||tinyint(4)	||No	||0	||It is enabled sharing to other user and outside? {1,0}||
+||*adjustable*	||char(1)	||No	||0	||Enable to be modified by other users {1,0}||
+||*color*	||varchar(6)||Yes||ee8800||Event display color||
+||*user_id*||int(20)||No|| ||Onwer User ID||
+
+
