@@ -27,6 +27,49 @@ Another way to help the developer understanding how the system works overall, th
 ||--> icon||- Icon files||
 ||--> image||- Image files||
 
+||component||Third Party library folder|| 
+||--> dhtmlx|| - All DHTMLX module files||
+||--> imgs||- DHTMLX image files in each its module||
+||    dhtmlx.css||- CSS file of DHTMLx, every module is compiled||
+||    dhtmlx.js||- Javascript file of DHTMLx, every module is compiled ||
+||    mainifest.txt    ||- Log file from DHTMLx||
+||extension.js||- Calling extension file||
+||iCalcreator.clsss.php||- iCal external class||
+||mysql_module.php||- Main MySQL connection management file||
+
+||event||Event Management files (XML format)||
+||events.php||- Manage the event from user (Show data/Add/Edit/Delete)||
+||events_internal.php||- List of the internal calendar in system (Only enable)||
+||events_search.php||- Search the event data from calendar table||
+||events_share.php||- Retrive the event from calendar table to export as HTML||
+
+
+||frame||iFrame files||
+||calendar_image.png||- Image of calendar||
+||calendar_settings.php||- Own calendar setting page||
+||internal_settings.php||- Other-user internal calendar setting page||
+||render.php||- Show the scheduler frame||
+||shared_settings.php||- Public or outsource calendar setting page||
+||support.php||- Feedback form received by current user||
+||system_settings.php||- Profile and system user setting page||
+
+||help||Support/Help folder||
+||-> images||- Support image files||
+||new.php||- The iframe page shows the announcement messages from administrtors||
+
+||share||Sharing Management files||
+||.htacess||- Manage Accessing file xml, html, ical on URL||
+||buffer.php||- Cache file management||
+||html.php||- Render the calendar table (dhtmlxSchedule) ||
+||ical.php||- Export the event in format of .ics to use outside the system that allow other to select/add/edit/delete||
+||ical_put.php||- Receive file iCal from input of client program such as Thunderbird||
+||ical_select.php||- Import the event from public URL or oursource||
+||shared_internal.php||- Show the internal calendar list that using in the selective table in format XML ||
+||xml.php||- Export event drumping into .xml format to use outside the system||
+
+||admin||Administration Management site||
+||-> SpryAssets||- Display CSS component ||
+||index.php||- Mainpage of administration site||
 
 
 
